@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "projectName": "Power Lab Ecom 1",
+      "projectLink": "https://github.com/regharris/ecommerceapp",
+      "projectDescription": "This a full Stack ecommerce website, In this version im using node.js as the backend and mySQL as the database where products are stored.",
+      "projectImage": "../projectimgs/ecommsql.png"
+    },
+    {
+      "projectName": "Power Lab Ecom 2",
+      "projectLink": "https://github.com/regharris/Adminserver-project5",
+      "projectDescription": "This is a refactor of the Power Lab ecommerce website changing the websites database from mySQL to MongoDB Atlas cloud. This project adds in login and logout authenication",
+      "projectImage": "../projectimgs/ecommongodproj.png"
+    },
+    {
+      "projectName": "Power Lab Ecom 3",
+      "projectLink": "https://github.com/regharris/project6-ecommerce",
+      "projectDescription": "This project turns the Power Lab parts ecommerce website into a PWA, This includes registering a service worker and adding cache. Functionality such as login, logout and the ADMIN page are still available. Visit this page on mobile to download the app.",
+      "projectImage": "../projectimgs/ecomlogin.png"
+    },
+    {
+      "projectName": "Lifesports",
+      "projectLink": "https://github.com/regharris/lifeSports",
+      "projectDescription": "LifeSport is a organization that specializes in helping youth through sports and education. The exercise app helps create exercises with a description, duration and a coach. Once you create a username, it will always be saved in the system. You then are able to create, edit, or delete the exercise.",
+      "projectImage": "../projectimgs/lifesports.png"
+    }
+  ]
+}
