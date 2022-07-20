@@ -131,3 +131,101 @@ height: 250px;
 #regemail {
   padding-top: 40px;
 }
+
+/*************************** Media queries *****************************/
+  
+
+@media only screen and (min-width: 700px) and (max-width: 1187px) {
+  /*Project Component*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 280px;
+  
+  }
+  .card {
+    width: 15rem;
+  }
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px)  {
+  /*Project Component*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 70px;
+
+}
+/*about component*/
+.intro-description {
+  text-align: center; 
+  font-size: 15px; 
+  margin:auto;
+  padding-bottom: 15px;
+
+}
+/*resume component*/
+#resume {
+  display: block;
+  margin: auto;
+  height: 550px;
+  width: 414px;
+}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 699px) {
+  /*Project Component*/
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 399px) {
+/*resume component*/
+#resume {
+  display: block;
+  margin: auto;
+  height: 550px;
+  width: 280px;
+}
+/*Project Component*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left:18px;
+}
+/*about Component*/
+.Name {
+  padding-top: 50px;
+}
+#JobTitle{
+  padding-bottom: 5px;
+} 
+#JobTitle, .Name {
+  text-align: center;
+  font-size: 20px;
+} 
+.intro-description {
+  text-align: center; 
+  font-size: 15px; 
+  margin:auto;
+  padding-bottom: 15px;
+} 
+/*Navbar*/
+.Navbaritem {
+  padding-right: 20px;
+  list-style-type: none;
+  font-size: 10px;
+  color: antiquewhite;
+}
+.card {
+  width: 15rem;
+}
+}
