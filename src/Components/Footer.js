@@ -16,7 +16,7 @@ const Footer = () => {
           <br></br>regharris0504@gmail.com
         </p>
         <p>
-          <b>Mobile:</b>
+          <b id="contact">Mobile:</b>
           <br></br>704-309-6768
         </p>
         <a href="https://github.com/regharris">Github</a>

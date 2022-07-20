@@ -23,6 +23,12 @@
       "projectLink": "https://github.com/regharris/lifeSports",
       "projectDescription": "LifeSport is a organization that specializes in helping youth through sports and education. The exercise app helps create exercises with a description, duration and a coach. Once you create a username, it will always be saved in the system. You then are able to create, edit, or delete the exercise.",
       "projectImage": "../projectimgs/lifesports.png"
+    },
+    {
+      "projectName": "Weather App",
+      "projectLink": "https://github.com/regharris/Weatherapp",
+      "projectDescription": "This is a weather app created to determine users location, and let them know the weather in their area, built with ReactJs",
+      "projectImage": "../projectimgs/weatherapp.png"
     }
   ]
 }

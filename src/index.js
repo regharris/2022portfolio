@@ -7,13 +7,24 @@ import Resume from './Components/Resume.js';
 import Projects from './Components/Projects.js';
 import ProjectDecor from './Components/projectDecoration.js';
 import ContactDecor from './Components/contactDecoration.js';
-import Navbar from './Components/Navbar.js';
 import './index.css'
+import { BrowserRouter } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const App = () =>{
     return(
         <div> 
-            <Navbar /> 
+            <BrowserRouter>
+            
+        <nav class="navbar fixed-top">
+        <ul id="Navbar">
+            <Link className='Navbaritem' to="#about">Home</Link>
+            <Link className='Navbaritem' to="#resume">Resume</Link>
+            <Link className='Navbaritem' to="#projects">Projects</Link>
+            <Link className='Navbaritem' to="#contact">Contact</Link>
+        </ul>
+        </nav>
             <About />
             <ResumeDecor />
             <Resume />
@@ -21,6 +32,7 @@ const App = () =>{
             <Projects />
             <ContactDecor />
             <Footer />
+            </BrowserRouter >
         </div>
     )
 }
